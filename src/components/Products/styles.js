@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     background-color: whitesmoke;
-    width: 200px;
+    max-width: 200px;
+    max-height: fit-content;
     display: flex;
     flex-direction: column;
     align-content: center;

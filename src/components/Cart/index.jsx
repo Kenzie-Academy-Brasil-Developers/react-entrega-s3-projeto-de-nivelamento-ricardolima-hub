@@ -1,7 +1,6 @@
 import CartItem from "../CartItem";
 import { CartContainer, Container } from "./styles";
 
-
 export default function Cart ({ currentSale, totalDiscount, totalPrice, totalValue, removeToCart}) {
     console.log(currentSale)
     return (

@@ -1,4 +1,4 @@
-import { Container } from "../Cart/styles";
+import { Container } from "../CartItem/styles";
 
 export default function CartItem({ products: {code, name, description, price, discount}, handleClick }) {
     return (

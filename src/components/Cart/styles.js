@@ -5,8 +5,14 @@ export const Container = styled.div `
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 `
 
 export const CartContainer = styled.div`
-    width: 200px;
-`
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+`   
