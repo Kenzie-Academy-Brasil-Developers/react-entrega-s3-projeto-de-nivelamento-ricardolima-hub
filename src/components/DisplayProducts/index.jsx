@@ -4,8 +4,8 @@ import { Container } from "./styles"
 export default function DisplayProducts({products, handleClick}) {
     return (
         <Container>
-            {products.map((larissa, index) => {
-                return <Products key={index} products={larissa} handleClick={handleClick}/>
+            {products.map((item, index) => {
+                return <Products key={index} products={item} handleClick={handleClick}/>
             })}
         </Container>
     )
